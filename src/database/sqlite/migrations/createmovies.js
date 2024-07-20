@@ -1,5 +1,5 @@
 const createMovies = `
-    CREATE TABLE movies_notes (
+    CREATE TABLE IF NOT EXISTS movies_notes (
         id          INTEGER PRIMARY KEY AUTOINCREMENT,
         title       VARCHAR NOT NULL,
         description VARCHAR,
