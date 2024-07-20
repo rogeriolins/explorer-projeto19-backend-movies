@@ -10,6 +10,5 @@ const createMovies = `
         FOREIGN KEY (user_id) 
             REFERENCES users(id)
                 ON DELETE CASCADE
-);
-`
+);`
 module.exports = createMovies;
